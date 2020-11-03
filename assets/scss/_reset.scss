@@ -1,0 +1,41 @@
+// !Google Font(Roboto) Imported
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+//! Import Variable SCSS File
+@import "variables";
+
+// !Global Styles
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    padding-left: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
